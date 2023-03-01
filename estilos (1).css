@@ -1,0 +1,207 @@
+body {
+    background-color: rgb(231 224 233);
+}
+
+.titulo {
+    padding: 2%;
+    text-align: center
+}
+
+p {
+    padding-left: 10px;
+}
+
+#datos {
+    width: 75%;
+}
+
+#lupe {
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid;
+}
+
+#contacto {
+    width: 25%;
+    height: min-content;
+    background-color: yellow;
+    margin: 15px;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.columna {
+    column-count: 2;
+    column-gap: 5%;
+}
+
+h3 {
+    background-color: #df634b;
+}
+
+.botón {
+    column-count: 2;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#soft {
+    display: none;
+
+}
+
+#hard {
+    display: none;
+}
+
+#barra1 {
+    height: 20px;
+    width: 300px;
+}
+
+#barra2 {
+    height: 20px;
+    width: 200px;
+}
+
+#barra3 {
+    height: 20px;
+    width: 100px;
+}
+
+#capacitaciones {
+    column-count: 2;
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 950px) {
+    .columna {
+        column-count: 1;
+    }
+
+    #contacto {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .display {
+        display: block;
+    }
+
+    #datos {
+        width: 75%;
+    }
+
+    .datos {
+        font-size: small;
+    }
+
+    #contacto {
+        width: 40%;
+        height: min-content;
+        background-color: yellow;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .datos {
+        font-size: smaller;
+    }
+
+    #contacto {
+        width: 50%;
+    }
+    #curriculum{
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    
+    #nombre {
+        font-size: x-small;
+    }
+
+    #contacto {
+        width: 50%;
+        font-size: smaller;
+    }
+
+    #lupe {
+        width: 120px;
+        height: 130px;
+    }
+
+    #mail {
+        height: 25px;
+    }
+
+    #telefono {
+        height: 32px;
+    }
+
+    #instagram {
+        height: 38px;
+    }
+
+    #ul {
+        padding-inline-start: 20px;
+    }
+    #curriculum{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #curriculum{
+        width: 300px;
+    }
+    #lupe {
+        width: 100px;
+        height: 110px;
+}
+
+#contacto {
+    width: 70%;
+    font-size: smaller;
+}
+
+#nombre {
+    font-size:xx-small;
+}
+
+#mail {
+    height: 20px;
+}
+
+#telefono {
+    height: 26px;
+}
+
+#instagram {
+    height: 32px;
+}
+
+#barra1{
+    width: 150px;
+    height: 15px;
+}
+
+#barra2{
+    width: 100px;
+    height: 15px;
+}
+
+#barra3{
+    width: 50px;
+    height: 15px;
+}
+}
